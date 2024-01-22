@@ -1,0 +1,639 @@
+@charset "utf-8";
+@font-face {
+	font-family: TAKOYAKI;
+	src: url('fonts/TAKOYAKI.woff2') format('woff2'),
+	url('fonts/TAKOYAKI.woff') format('woff'),
+	url('fonts/TAKOYAKI.svg') format('svg');
+	font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+	font-family: Chow Fun;
+	src: url('fonts/ChowFun.woff2') format('woff2'),
+	url('fonts/CHOWFUN.woff') format('woff'),
+	url('fonts/CHOWFUN.svg') format('svg');
+	font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+	font-family: Bodoni MT;
+	src: url('fonts/BodoniMT.woff2') format('woff2'),
+	url('fonts/BODR.woff') format('woff'),
+	url('fonts/BODR.svg') format('svg');
+	font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+	font-family: CF General Tao Regular;
+	src: url('fonts/CFGeneralTao-Regular.woff2') format('woff2'),
+	url('fonts/CFGeneralTao-Regular.woff') format('woff'),
+	url('fonts/CFGeneralTao-Regular.svg') format('svg');
+	font-weight: normal;
+    font-style: normal;
+}
+
+/*GÉNÉRAUX*/
+
+body {font:1em Verdana, Arial, Helvetica, sans-serif; background:#fff; margin:0px; padding:0px;width: 100%;}
+div#main {width: 1140px;margin: 0 auto;}
+header {margin-bottom: 100px;}
+
+header h1 {
+	font-family: TAKOYAKI;
+    font-size: 3em;
+    z-index: 2;
+    text-transform: uppercase;
+}
+
+nav img {
+	float: left;
+}
+ul {
+  list-style-type: none;
+}
+
+li {
+  float: left;
+  padding-top: 20px;
+}
+
+li a {
+  font-family: TAKOYAKI;
+  font-size: 3em;	
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 40px;
+  text-decoration: none;
+}
+
+nav li:hover {
+	
+}
+
+nav li a:hover {
+	color: #B01509;
+}
+.banner {
+	position: relative;
+	z-index: -1;
+}
+
+.heading {
+	position: absolute;
+	text-align: center;
+	top: 60%;
+	width: 100%;
+	text-shadow: 0px 0px 15px #FFFFFF,0px 0px 25px #FFFFFF,0px 0px 45px #FFFFFF,0px 0px 55px #FFFFFF;
+}
+/*Contenu*/
+
+h2{
+	font-family: Chow Fun;
+	font-size: 1.8em;
+	color: #B01509;
+	float: left;
+	
+}
+
+input {
+	background-color: black;
+	color: white;
+	width: 150px;
+	height: 40px;
+	border-radius: 15px;
+	font-size: 1.2em;
+	text-align: center;
+	font-weight: bold;
+}
+input:hover {
+	background-color: white;
+	color: #B01509 ; 
+	border: 5px solid black;
+	cursor: pointer;
+}
+div#japanime img{
+	float: left;
+	margin-bottom: 50px;
+	width: 730px;
+}
+
+div#japanime h2{
+	margin-left: 20px;
+	
+}
+
+div#japanime p{
+	float: left;
+	margin-left: 20px;
+	font-size: 1.1em;
+}
+
+div#doublage img{
+	float: left;
+	margin-bottom: 80px;	
+}
+
+div#doublage h2{
+	margin-left: 20px;
+	
+}
+
+div#doublage p{
+	float: left;
+	margin-left: 20px;
+	font-size: 1.1em;
+}
+div#doublage input {
+	float: left;
+	margin-left: 200px;
+	margin-bottom: 80px;
+	position: relative;
+	z-index: 100;
+}
+
+
+div#decouvrir h1 {
+	font-family: Chow Fun;
+	font-size: 2em;
+	color: white;
+	float: left;
+}
+
+div#decouvrir input {
+	float: left;
+	margin-bottom: 80px;
+}
+
+.ban {
+	position: relative;
+}
+.ban img {
+	z-index: -1;
+}
+.head {
+	position: absolute;
+	text-align: center;
+	top: 82%;
+	width: 100%;
+}
+
+.head2 {
+	position: absolute;
+	text-align: center;
+	top: 92%;
+	left: 44%;
+	z-index: 1;
+}
+
+
+div#prix {
+	height:300px;
+	margin-top: 50px;
+}
+div#prix img {
+	float: right;
+	width: 380px;
+}
+
+div#prix h2 {
+	float: left;
+	margin-left: 100px;
+}
+
+div#prix p{
+	float: left;
+	font-size: 1.1em;
+	text-align: center;
+
+}
+
+div#prix input {
+	float: left;
+	margin-left: 270px;
+	
+}
+
+img#manga1{
+	margin-bottom: 90px;
+	width: 380px;
+	height: 210px;
+	float: left;
+}
+div#manga2 {
+	float: left;
+	width: 350px;
+	height: 210px;
+	text-align: center;
+}
+div#manga2 h2 {
+	text-align: center;
+	padding-left: 10px;
+}
+img#manga3{
+	float: left;	
+	margin-bottom: 90px;
+	width: 380px;
+	height: 210px;
+}
+
+/*Footer*/
+footer {
+	background-color: black;
+	text-align: center;
+	height: 560px;
+}
+
+footer h1 {
+	font-family: CF General Tao Regular;
+	font-size: 1.4em;
+	color: white;
+	float: left;
+	margin-top: 100px;
+	margin-left: 50px;
+	margin-bottom: 50px;
+}
+
+footer p {
+	float: left;
+	margin-left: 400px;
+	color: #999999;
+}
+footer ul {
+  list-style-type: none;
+  margin-left: 80px;
+}
+
+footer li {
+  float: left;
+  padding-top: 20px;
+}
+
+footer li a {
+  font-family: TAKOYAKI;
+  font-size: 3em;	
+  display: block;
+  color: #B01509;
+  border-color: 2px solid white ;
+  text-align: center;
+  padding: 14px 40px;
+
+}
+
+footer li a:hover {
+	  -webkit-text-stroke: 1px;
+-webkit-text-stroke-color: white;
+}
+
+footer input:hover {
+	border: 2px solid black;
+}
+
+.entertext {
+	width: 440px;
+	height: 60px;
+	background-color: #333333;
+	border: 2px solid white;
+	margin-right: 40px;
+	margin-left: 60px;
+}
+
+.entertext:hover {
+	cursor: text;
+}
+
+.footeur {
+	width: 180px;
+	height: 60px;
+	background-color: #333333;
+	border: 2px solid white;
+	font-family: Bodoni MT;
+}
+
+.logo {
+	float: left;
+}
+
+div#social {
+	margin-right: 55px;
+}
+
+.chibi {
+	width: 150px;
+	text-align: center;
+	height: 130px;
+	margin-left: 70px;
+	opacity: 80%;
+
+}
+
+.chibi:hover {
+	opacity: 100%;
+}
+
+/*//////////////////////////////////////////////////////////////////////*/
+/*Galerie*/
+
+
+
+div#galerie img {
+	float: left;
+	border: 4px solid black;
+	margin-bottom: 20px;
+	width: 540px;
+	height: 300px;
+}
+
+div#galerie img:hover {
+	-webkit-filter: grayscale(100%);
+	-webkit-transition:all 0.3s;
+	transition:all 0.3s;
+}
+
+/*//////////////////////////////////////////////////////////////////////*/
+/*Page_Articles*/
+
+div#articles {
+	width: 1140px;
+	height: 330px;
+	background-color: black;
+	margin-bottom: 50px;
+	border-radius: 30px;
+	filter: brightness(50%);
+  -webkit-filter: brightness(50%);
+  -moz-filter: brightness(50%);
+  -o-filter: brightness(50%);
+  -ms-filter: brightness(50%);
+  transition:all 0.5s;
+}
+
+div#articles h2 {
+	color: white;
+	font-size: 1.7em;
+	margin-top: 80px;
+}
+
+div#articles  img {
+	width: 540px;
+	height: 300px;
+	float: right;
+	margin-right: 15px;
+	margin-top: 15px;
+}
+
+div#articles p {
+	color: white;
+	float: left;
+	text-align: center;
+	margin-left: 15px;
+
+}
+
+div#articles:hover {
+	  filter: brightness(100%);
+  -webkit-filter: brightness(100%);
+  -moz-filter: brightness(100%);
+  -o-filter: brightness(100%);
+  -ms-filter: brightness(100%);
+}
+
+/*//////////////////////////////////////////////////////////////////////*/
+/*Tout_Articles*/
+
+div#toutArticle {
+	margin: auto;
+}
+
+div#toutArticle h2 {
+	margin-left: 20px;
+	text-align: center;
+	width: 1140px;
+}
+
+div#toutArticle p {
+	float: left;
+	margin-left: 20px;
+	font-size: 1.1em;
+	text-align: center;
+	width: 1140px;
+}
+
+div#toutArticle img{
+	width: 540px;
+	height: 300px;
+	text-align: center;
+	margin-bottom: 20px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid black;
+}
+
+p[target="_final"] {
+	margin-bottom: 40px;
+}
+
+div#toutArticle video{
+	width: 540px;
+	height: 300px;
+	text-align: center;
+	margin-bottom: 20px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.red {
+	font-weight: bold;
+}
+
+.green {
+	color: green;
+}
+
+p.date {
+	margin-left: 30px;
+	color: grey;
+	font-size: 1.1em;
+}
+/*//////////////////////////////////////////////////////////////////////*/
+/*Apropos*/
+
+div#apropos {
+	margin: auto;
+	width: 1140px;
+}
+
+.mid {
+	text-align: center;
+	width: 1140px;
+}
+
+.colone {
+	columns: 40px 2;
+	float: left;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+div#apropos h2 {
+	float: left;
+	margin-top: 40px;
+}
+
+div#apropos p {
+	float: left;
+	margin-left: 0px;
+	font-size: 1.1em;
+	float: left;
+	text-align: center;
+}
+
+div#apropos figure {
+	float: right;
+}
+
+div#apropos figure img {
+	width: 200px;
+	height: 200px;
+	margin-top: 70px;
+	margin-bottom: 20px;
+	float: right;
+	padding: 15px 15px 15px 15px;
+	background: url("img/Light-Effect.png") fixed center top ;
+}
+
+figure img:nth-child(2) {
+	margin-right: 20px;
+}
+
+div#apropos figcaption {
+	text-align: center;
+	font-size: 0.8em;
+	color: grey;
+
+}
+
+/*//////////////////////////////////////////////////////////////////////*/
+/*Contact*/
+
+form {
+	width: 650px;
+	margin-left: 250px;
+	text-align: center;
+}
+
+fieldset {
+	margin-bottom: 60px;
+	background: black;
+	color: white;
+	border-radius: 30px;
+}
+
+legend {
+  background-color: black;
+  color: white;
+  padding: 5px 10px;
+  font-size: 1.5em;
+  font-family: Chow Fun;
+  padding-bottom: 30px;
+  border-radius: 10px;
+}
+
+input.selected{
+	background-color: white;
+	color: black;
+	float: left;
+	width: 350px;
+	height: 25px;
+	border-radius: 5px;
+	font-size: 1em;
+	margin-left: 150px;
+}
+
+input.selected:hover {
+	transition:all 100s;
+}
+
+label.change {
+	text-align: center;
+	width: 650px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	font-size: 1.5em;
+	font-family: Bodoni MT;
+}
+
+select#objet {
+	width: 200px;
+	height: 40px;
+	margin-bottom: 20px;
+}
+
+textarea {
+	width: 350px;
+	height: 80px;
+}
+
+div#contactf h2 {
+	font-size: 1.6em;
+	text-align: center;
+	width: 650px;
+	font-weight: bold;
+	margin-top: 40px;
+	border-top: 4px solid white;
+	border-radius: 4px;
+}
+
+div#inlin {
+	display: inline-block;
+}
+
+input.check {
+	width: 50px;
+	height: 50px;
+	margin-bottom: 20px
+}
+
+label.change2 {
+	font-size: 1.2em;
+	padding-top: 10px;
+	padding-right: 10px;
+}
+
+label {
+	text-align: center;
+	float: left;
+}
+
+input.finish1 {
+	width: 150px;
+	height: 40px;
+	background-color: white;
+	color: black;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: 10px;
+	margin-left: 30px;
+}
+
+input.finish2 {
+	width: 150px;
+	height: 40px;
+	background-color: white;
+	color: black;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+}
+
+input.finish1:hover {
+	background-color: grey;
+	color: white;
+}
+
+input.finish2:hover {
+	background-color: #B01509;
+	color: white;
+}
+

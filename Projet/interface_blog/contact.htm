@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<title>JapBlog | L'histoire de la japanimation</title>
+<link href="styles.css" rel="stylesheet" type="text/css">
+<script type="text/javascript"src="clearbox.js"></script>
+<link rel="icon" href="favicon/favicon.ico">
+<link rel="shortcut icon" type="image/x-icon" href="favicon/favicon.ico">
+<link rel="apple-touch-icon-precomposed" sizes="57x57" href="favicon/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="favicon/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="favicon/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="favicon/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60" href="favicon/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="favicon/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="favicon/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="favicon/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="favicon/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="favicon/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="favicon/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="favicon/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="favicon/favicon-128.png" sizes="128x128" />
+<meta name="application-name" content="&nbsp;"/>
+<meta name="msapplication-TileColor" content="#FFFFFF" />
+<meta name="msapplication-TileImage" content="favicon/mstile-144x144.png" />
+<meta name="msapplication-square70x70logo" content="favicon/mstile-70x70.png" />
+<meta name="msapplication-square150x150logo" content="favicon/mstile-150x150.png" />
+<meta name="msapplication-wide310x150logo" content="favicon/mstile-310x150.png" />
+<meta name="msapplication-square310x310logo" content="favicon/mstile-310x310.png" />
+</head>
+<body>
+<div id="main">
+<header>
+<nav>
+<a href="index.htm"><img src="img/japblog_noir.jpg"></a>
+<ul>
+  <li><a href="index.htm">Accueil</a></li>
+  <li><a href="articles.htm">Articles</a></li>
+  <li><a href="galerie.htm">Galerie</a></li>
+  <li><a href="apropos.htm">A propos</a></li>
+  <li><a href="contact.htm">Contact</a></li>
+</ul>
+</nav>
+<div class="banner">
+<img src="img/Re_zero.png">
+<h1 class="heading">Contact</h1>
+</div>
+</header>
+<section>
+<form method="post" action="contact.htm">
+	<fieldset>
+	<legend>Formulaire de contact</legend>
+	
+	<div id="contactf">
+	<label for="nom" class="change">Quel est votre nom ?</label><br>
+	<input type="text" name="nom" class="selected" placeholder="Votre nom" required><br>
+	<div style="clear: both;"></div>
+	<label for="email" class="change">Inscrivez votre courriel</label><br>
+	<input type="email" name="email" class="selected" placeholder="Votre email"><br>
+	<div style="clear: both;"></div>
+	<label for="objet" class="change">Objet du courriel</label><br>
+	<select name="objet" id="objet">
+		<option value="Demande">Demande</option>
+		<option value="Commentaire">Commentaire</option>
+		<option value="Question">Question</option>
+		<option value="Autre">Autre</option>
+	</select><br>
+	<div style="clear: both;"></div>
+	<label for="zone" class="change">Inscrivez ici votre questions ou commentaire</label><br>
+	<textarea></textarea><br>
+	<div style="clear: both;"></div>
+	<label class="change">appréciation du site web</label><br>
+	<select name="objet" id="objet">
+		<option value="Mauvais">Mauvais</option>
+		<option value="Moyen">Moyen</option>
+		<option value="Bien">Bien</option>
+		<option value="Excellent">Excellent</option>
+	</select><br>
+	</fieldset>
+	<fieldset>
+	<legend>Petit sondage</legend>
+	<div style="clear: both;"></div>
+	<label for="sondage1" class="change">Ce site vous à t'il apris quelque chose ?</label><br>
+	<div id="inlin">
+	<input type="radio" name="questions" value="oui"><label for="oui" class="change">Oui</label><br>
+	<input type="radio" name="questions" value="non"><label for="non" class="change">Non</label><br>
+	</div>
+	<div style="clear: both;"></div>
+	<label for="sondage2" class="change">Qu'est ce que vous aimez</label><br>
+	<div id="inlin">
+	<input type="checkbox" name="questions" value="Animé" class="check" id="c1"><label for="Animé" class="change2">Animé</label><br>
+	<input type="checkbox" name="questions" value="Manga" class="check" id="c1"><label for="Manga" class="change2">Manga</label><br>
+	<input type="checkbox" name="questions" value="Light novel" class="check" id="c1"><label for="Light novel" class="change2">Novel</label><br>
+	</div>
+	</fieldset>
+	<div style="clear: both;"></div>
+	<input type="submit" name="nom" value="Envoyer" class="finish1"><input type="reset" name="nom" value="Annuler" class="finish2">
+	</div>
+</form>
+
+<div style="clear: both;"></div>
+</section>
+</div>
+<footer>
+	<div id="main">
+	<a href="index.htm"><img src="img/japblog_blanc.jpg" class="logo"></a>
+	<h1>Inscrivez-vous pour recevoir des offres spéciales et des mises à jour !</h1><br>
+	<div style="clear: both;"></div>
+	<input type="email" class="entertext" required="required">
+	<input class="footeur" type="submit" value="Inscrivez-vous"><br>
+	<ul>
+  		<li><a href="index.htm">Accueil</a></li>
+  		<li><a href="articles.htm">Articles</a></li>
+  		<li><a href="galerie.htm">Galerie</a></li>
+  		<li><a href="apropos.htm">A propos</a></li>
+ 	    <li><a href="contact.htm">Contact</a></li>
+	</ul>
+	<div style="clear: both;"></div>
+	<div id="social">
+	<a href="https://www.facebook.com/" target="_blank"><img src="img/chibi_fb.jpg" class="chibi"></a>
+	<a href="https://twitter.com/?lang=en" target="_blank"><img src="img/chibi_tw.jpg" class="chibi"></a>
+	<a href="https://www.instagram.com/" target="_blank"><img src="img/chibi_insta.jpg" class="chibi"></a><br>
+	</div>
+	<p>Tous droits réservés © JapBlog 2020</p>
+</div>
+</footer>
+</body>
+</html>
