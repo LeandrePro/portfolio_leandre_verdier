@@ -108,7 +108,7 @@ ul a:hover::after {
   background-repeat: no-repeat;
   opacity: 1;
   width: 100%;
-  height: 98vh; /* Utilisation de vh (viewport height) pour spécifier 60% de la hauteur de l'écran */
+  height: 110vh; /* Utilisation de vh (viewport height) pour spécifier 60% de la hauteur de l'écran */
 }
 
 @media screen and (max-width: 420px) {
