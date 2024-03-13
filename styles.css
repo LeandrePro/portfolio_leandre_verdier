@@ -246,11 +246,6 @@ ul a:hover::after {
 
 
 #Projets {
-  background: url("img/projets2.png") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 }
 
 .box-container {
